@@ -15,7 +15,7 @@
   ],
   "routes": [
     {
-      "src": "/apiz/(.*)",
+      "src": "/api/(.*)",
       "dest": "server.js"
     }
   ]
