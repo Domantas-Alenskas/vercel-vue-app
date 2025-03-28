@@ -17,10 +17,6 @@
     {
       "src": "/api/(.*)",
       "dest": "server.js"
-    },
-    {
-      "src": "/test/(.*)",
-      "dest": "destination-bahamas/$1"
     }
   ]
 }
