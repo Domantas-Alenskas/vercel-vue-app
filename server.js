@@ -14,3 +14,8 @@ app.get('/api', (req, res) => {
 app.get('/api/*', (req, res) => {
   res.json({ message: 'API endpoint hit', path: req.path });
 });
+
+// Start the server
+app.listen(port, () => {
+  console.log(`Server is running at http://localhost:${port}`);
+}); 
