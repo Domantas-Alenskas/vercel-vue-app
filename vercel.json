@@ -19,7 +19,7 @@
       "dest": "server.js"
     },
     {
-      "src": "/(.*)",
+      "src": "/test/(.*)",
       "dest": "destination-bahamas/$1"
     }
   ]
