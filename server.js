@@ -7,7 +7,7 @@ app.use(express.json());
 
 // Test endpoint
 app.get('/api', (req, res) => {
-  res.json({ message: `Hello from Express server! ${port} ${process.env.NODE_ENV}` });
+  res.json({ message: `Hello from Express server! ${port} ${process.env.NODE_ENV} ${process.env}`});
 });
 
 // Catch-all route for /api/*
