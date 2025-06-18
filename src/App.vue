@@ -5,7 +5,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <header>
-     Hello my dear friends who are visiting my website
+     Hello my dear friends who are visiting my website STAGING
   </header>
 
   <RouterView />
